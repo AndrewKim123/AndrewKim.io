@@ -1,180 +1,157 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap%22");
 
 * {
-    margin: 0;
-    box-sizing: border-box;
+    /* margin: 0;
+    box-sizing: border-box; */
     font-family: "Roboto", sans-serif;
-  }
-
-  a:link{
-    color:red;
+    /* border: 2px dotted red; */
 }
 
-a:visited{
-    color: red;
+/* LINKS */
+a:link {
+    color: aquamarine;
 }
 
-a:hover{
-    color:blue;
+a:visited {
+    color: aquamarine;
 }
 
-.name{
-    border-style: solid;
-    background-color: rgb(139, 215, 246);
-    padding: 0.8%;
+a:hover {
+    color: blue;
 }
 
-
-nav h1, .navcontainer .navbar {
-    display: inline-block;
-    height:120px;
-    
-}
-
-.navcontainer{
-    padding: 12px;
-    font-size:48px;
-    display: inline;
-    
-    
-}
-
-.navbar{
-    margin: left 100px;
-    font-size:40px;
-    padding: 10px;
-    float:right;
-    
-    
-}
 ul li {
     display: inline;
-   margin:left 16px;
-
 }
-header nav{
+
+.navbar {
+    font-size: 40px;
+    padding: 10px;
+    float: right;
+}
+
+/* NAME */
+.name {
+    font-size: 50px;
+    color: gainsboro;
+}
+
+/* TOP PORTION */
+.name,
+.navbar {
+    display: inline-block;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    background-color:blanchedalmond;
+}
+
+.aboutMe {
+    clear: both;
+    margin-bottom: 10px;
+}
+
+.aboutMe img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 12px;
+    width: 200px;
+}
+header nav {
     background-color: #2F4F4F;
-    margin:left 100px;
-    
-    
 }
 
-.displayimage{
+.displayimage {
     background-image: url('../images/backgroundimg.jpg');
-    height: 240px;
-    background-size:cover;
-    background-position:center;
-    position:relative;
-    padding: 8%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 6%;
 }
 
-
-.displayimage h1{
-    font-size: 400%;
-    position:absolute;
+.displayimage h1 {
+    font-size: 350%;
+    position: absolute;
     bottom: 0;
     right: 0;
     padding: 1%;
-    color:darkturquoise;
+    color: darkturquoise;
 }
 
+/* ABOUT ME */
 
-.aboutMe{
-    font-size: 40px;
-    padding: 1%;
-    border-left: 6px solid gray;
-    left: 50%;
-    margin-left: 5%;
-    top: 0;
-    ;
-}
-
-
-.paragraph{
-    font-size: 32px;;
-    writing-mode: horizontal-tb;
+.paragraph {
+    font-size: 32px;
     display: inline-block;
-    width: 42%;
-    padding: 1%;
-    
-    
-}
-
-/*Universial for Work Section*/ 
-
-.work h1{
-    font-size:64px;
-}
-
-.work h3{
-    font-size:40px;
-}
-
-.work{
+    /* width: 42%; */
     padding: 1%;
 }
+
+/*Universial for Work Section*/
 
 .work {
-    border-left: 6px solid gray;
-    left: 50%;
-    margin-left: 5%;
-    top: 0;
-    padding: 1%;
-
+    border: 2px solid red;
+    clear: both;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-/* Work */
+.app:first-child {
+    width: 100%;
+    border: 2px solid black;
+}
 
-.mainapp{
+.app:first-child img {
+    width: 100%;
+    height: 300px;
+}
+
+.mainapp {
     border: 6px solid darkturquoise;
     padding: 1%;
     margin: 10px;
-    
- }
 
- .app1{
+}
+
+.app1 {
     border: 6px solid darkturquoise;
     padding: 1%;
     margin: 10px;
     background-image: url('../images/ledimage.jpg');
- }
+}
 
 
 
- .app2{
+.app2 {
     border: 6px solid darkturquoise;
     padding: 1%;
-    margin: 10px;  
+    margin: 10px;
     background-image: url('../images/calculator.webp');
-    
- }
 
- .apps{
-     display:flex;
-     flex-wrap:wrap;
-     justify-content:center;
-    
- }
+}
+
+.apps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
 
 /*Contact Me*/
 
-.contact h1{
-    font-size:86px;
-    display:flex;
-    justify-content:left;
+.contact h1 {
+    font-size: 350%;
+    display: flex;
+    justify-content: left;
 
 }
 
-
-
-.connect{
-    display:flex;
+.connect {
+    display: flex;
     justify-content: space-evenly;
-    border-left: 6px solid gray;
-    left: 50%;
-    margin-left: 5%;
-    top: 0;
     padding: 1%;
-    font-size:40px;
+    font-size: 200%;
 }
-
